@@ -87,4 +87,3 @@ Borrar el archivo fich1 y copiar enlace en dir3.
 
 Crear un enlace simbólico (llamado enlafich1) al fichero enlace de dir2 en 
 dir1. 
-+
