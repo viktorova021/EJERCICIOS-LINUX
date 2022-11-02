@@ -82,6 +82,8 @@ directorio /bin en directorio nuevo1.
 
 Crear dos enlaces duros del fichero fich1, llamarlo enlace, en los directorios 
 dir1 y dir2. 
-34. Borrar el archivo fich1 y copiar enlace en dir3. 
-35. Crear un enlace simbólico (llamado enlafich1) al fichero enlace de dir2 en 
+
+Borrar el archivo fich1 y copiar enlace en dir3. 
+
+Crear un enlace simbólico (llamado enlafich1) al fichero enlace de dir2 en 
 dir1. 
