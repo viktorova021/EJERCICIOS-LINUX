@@ -1,22 +1,35 @@
 1. comando: cd bin, comando: ls
 comando: cd tmp, comando: ls
-3. comando: cd etc, ls -r/ t*
-4. Listar todos los archivos del directorio dev que empiecen por tty y tengan 5 
-caracteres. 
-comandos: cd dev, ls/ dev/ tty??
+3. comando: ls -r/etc/t*
+
+4. comandos: ls /dev/ tty??
+
 5. comandos: cd dev, ls/tty*[1-4]
+
 6. comandos: ls /dev/t*C1
+
 7. comandos: ls -a
-8. comandos: ls -d /etc/[^t]
-9. comandos: cd usr, ls -r
-10. comandos: cd /tmp, mkdir PRUEBA
+
+8. comandos: ls -d /etc/[^t]*
+
+9. comandos: ls -r /usr
+
+10. comandos: cd /tmp && mkdir PRUEBA
+
 11. Comando: pwd
+
 12. Comando: Date
+
 13. comando: cd /home
+
 14. Comando: pwd
+
 15. comando: cd home, ls -i
+
 16. 
 comandos: cd PRUEBA, rm -rf PRUEBA/*
+
+17.
 1-. cd PRUEBA
 2-. mkdir dir1
 3-. mkdir dir2
