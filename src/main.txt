@@ -1,0 +1,78 @@
+1. comando: cd bin, comando: ls
+comando: cd tmp, comando: ls
+3. comando: cd etc, ls -r/ t*
+4. Listar todos los archivos del directorio dev que empiecen por tty y tengan 5 
+caracteres. 
+comandos: cd dev, ls/ dev/ tty??
+5. comandos: cd dev, ls/tty*[1-4]
+6. comandos: ls /dev/t*C1
+7. comandos: ls -a
+8. comandos: ls -d /etc/[^t]
+9. comandos: cd usr, ls -r
+10. comandos: cd /tmp, mkdir PRUEBA
+11. Comando: pwd
+12. Comando: Date
+13. comando: cd /home
+14. Comando: pwd
+15. comando: cd home, ls -i
+16. 
+comandos: cd PRUEBA, rm -rf PRUEBA/*
+1-. cd PRUEBA
+2-. mkdir dir1
+3-. mkdir dir2
+4-. mkdir dir3
+5-. acceder al directorio dir1: cd dir1
+6-. mkdir dir11
+7-. cd ..
+8-. cd dir3 
+9-. mkdir dir31
+10-. cd dir31
+11-. mkdir dir311
+
+18. comandos: cp /etc/motd/PRUEBA
+
+19. Copiar mensaje en dir1, dir2 y dir3. 
+
+Comprobar el ejercicio anterior mediante un solo comando. 
+
+20. Copiar los archivos del directorio rc.d que se encuentra en letc al directorio 
+dir31. 
+
+21. Copiar en el directorio dir311 los archivos de /bin que tengan una a como 
+segunda letra y su nombre tenga cuatro letras. 
+
+22. Copiar el directorio de otro usuario y sus subdirectorios debajo de dir11 
+(incluido el propio directorio). 
+
+23. Mover el directorio dir31 y sus subdirectorios debajo de dir2. 
+
+24. ls -r home
+
+25. Ocultar el archivo mensaje del directorio dir3. 
+
+26. Borrar los archivos y directorios de dir1, incluido el propio directorio. 
+
+27. Copiar al directorio dir312 los ficheros del directorio /dev que empiecen port, 
+acaben en una letra que vaya de la a a la b y tengan cinco letras en su nombre. 
+
+28. rm -r PRUEBA/dir3/dir31/dir312/???q[^b]
+
+29. Mover el directorio dir312 debajo de dir3. 
+
+30. Crear un enlace simbólico al directorio dir1 dentro del directorio dir3 llamado 
+enlacedir1. 
+
+31. Posicionarse en dir3 y, empleando el enlace creado en el ejercicio anterior, 
+crear el directorio nuevo1 dentro de dir1. 
+
+32. Utilizando el enlace creado copiar los archivos que empiecen por u del 
+directorio /bin en directorio nuevo1. 
+
+33. Crear dos enlaces duros del fichero fich 1, llamarlo enlace, en los directorios 
+dir1 y dir2. 
+
+34. Borrar el archivo fich1 y copiar enlace en dir3. 
+comandos: rm fich1 cp dir1/enlace dir3
+
+35. Crear un enlace simbólico (llamado enlafich1) al fichero enlace de dir2 en 
+dir1. 
